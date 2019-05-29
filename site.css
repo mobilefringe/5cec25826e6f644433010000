@@ -424,6 +424,7 @@ strong {
     }
     .social_icon:hover {
         div {
+            <div class="site_logo"><a href="/"><img src="//codecloud.cdn.speedyrails.net/sites/5cec25826e6f644433010000/image/png/1558631242000/Central-Park-Plaza-Stacked-RGB.png" alt="Central Park Plaza Logo"></a></div>
             background: $secondary_text;    
         }
         .fab {
