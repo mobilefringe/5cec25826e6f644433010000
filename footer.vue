@@ -14,7 +14,6 @@
                         <input id="fieldEmail" name="cm-yddyhrj-yddyhrj" type="email" class="js-cm-email-input" placeholder="Your Email" required />
                         <button id="newsletter_submit" class="js-cm-submit-button" type="submit">Subscribe To Our Newsletter</button>
                     </form>
-                    <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <p class="footer_heading">FOLLOW US ON FACEBOOK</p>
