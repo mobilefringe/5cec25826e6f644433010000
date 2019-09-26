@@ -6,12 +6,6 @@
 <priority>1.0</priority>
 </url>
 <url>
-<loc>http://shopcentralparkplaza.com/index.html</loc>
-<lastmod>2019-09-25T03:17:21-04:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>1.0</priority>
-</url>
-<url>
 <loc>http://shopcentralparkplaza.com/stores</loc>
 <lastmod>2019-09-25T03:17:21-04:00</lastmod>
 <changefreq>always</changefreq>
@@ -39,6 +33,12 @@
 <loc>http://shopcentralparkplaza.com/about-us</loc>
 <lastmod>2019-09-25T03:17:21-04:00</lastmod>
 <changefreq>always</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>http://shopcentralparkplaza.com/index.html</loc>
+<lastmod>2019-09-25T03:17:21-04:00</lastmod>
+<changefreq>daily</changefreq>
 <priority>1.0</priority>
 </url>
 </urlset>
