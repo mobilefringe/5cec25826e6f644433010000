@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="col-md-9">
-                    <div class="header_social_container hidden-sm hidden-xs">
+                    <div v-if="!isTablet && !isMobile" class="header_social_container hidden-sm hidden-xs">
                         <div class="website-toggle">
                             <label class="visuallyhidden" for="center-select">Choose a Center to Navigate to:</label>
                             <v-select v-model="websiteToggle" :options="websiteList" :searchable="false" :on-change="changeRoute" placeholder="Save More in Rancho" id="center-select" transition="menu-fade"></v-select>
@@ -65,7 +65,7 @@
 						    </li>
 						</ul>
 					</nav>
-					<div class="nav_container visible_phone">
+					<div v-if="isTablet || isMobile" class="nav_container visible_phone">
 					    <transition name="custom-classes-transition" enter-active-class="animated slideInRight" leave-active-class="animated slideOutRight">
     					    <nav id="mobile_nav" v-show="showMenu" class="">
     					        <ul>
