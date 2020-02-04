@@ -136,6 +136,7 @@
 <script>
     define(["Vue", "vuex", "bootstrap-vue", "vue-select", "vue!search-component", "json!site.json", "json!social.json"], function (Vue, Vuex, BootstrapVue, VueSelect, SearchComponent, site, social) {
         Vue.use(BootstrapVue);
+        Vue.component('v-select', VueSelect.VueSelect);
         return Vue.component("header-component", {
             template: template, // the variable template will be injected,
             data: function () {
