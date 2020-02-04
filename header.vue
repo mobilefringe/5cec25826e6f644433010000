@@ -310,18 +310,20 @@
                 },
                 changeRoute(id) {
                     this.$nextTick(function() {
-                        var website_name = _.lowerCase(id);
-                        var new_url = "";
-                        if (_.includes(website_name, "alta loma square")) {
-                            new_url = "https://altalomasquare.com"
-                        } else if (_.includes(website_name, "day creek marketplace")) {
-                            new_url = "https://www.daycreekmarketplace.com"
-                        } else if (_.includes(website_name, "terra vista village")) {
-                            new_url = "https://www.terravistavillage.com"
-                        }
-                        ga('send', 'event', 'Search Keywords', 'reroute', new_url);
-                        if (new_url){
-                            window.location.href = new_url;
+                        if (id && id !== 'Save More in Rancho') {
+                            var website_name = _.lowerCase(id);
+                            var new_url = "";
+                            if (_.includes(website_name, "alta loma square")) {
+                                new_url = "https://altalomasquare.com"
+                            } else if (_.includes(website_name, "day creek marketplace")) {
+                                new_url = "https://www.daycreekmarketplace.com"
+                            } else if (_.includes(website_name, "terra vista village")) {
+                                new_url = "https://www.terravistavillage.com"
+                            }
+                            ga('send', 'event', 'Website Toggle', 'reroute', new_url);
+                            if (new_url){
+                                window.location.href = new_url;
+                            }
                         }
                     });
                 }
