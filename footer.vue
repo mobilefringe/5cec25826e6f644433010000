@@ -9,11 +9,14 @@
                 <div class="col-xs-12 col-sm-6 col-md-4 footer_newsletter">
                     <p class="footer_heading">NEWSLETTER SUBSCRIPTION</p>
                     <p>Stay up to date on the latest news from {{ property.name }}!</p>
-                    <form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1AA0DD7DB141E3D88EFBCC66B0A005FAE472CB246984226443F57628F6D12F6E9372778D540690651D1BBF3E28293C4F5B">	
-                        <label class="accessibility" for="fieldEmail">Email</label>
-                        <input id="fieldEmail" name="cm-yddyhrj-yddyhrj" type="email" class="js-cm-email-input" placeholder="Your Email" required />
+
+                    <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1AA0DD7DB141E3D88EFBCC66B0A005FAE472CB246984226443F57628F6D12F6E9372778D540690651D1BBF3E28293C4F5B">
+                        <label class="accessibility" for="fieldEmail">Email </label>
+                        <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-ydiutyj-ydiutyj" required="" type="email">
+                        <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true">
                         <button id="newsletter_submit" class="js-cm-submit-button" type="submit">Subscribe To Our Newsletter</button>
                     </form>
+                    
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <p class="footer_heading">FOLLOW US ON FACEBOOK</p>
