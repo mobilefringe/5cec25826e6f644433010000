@@ -22,7 +22,7 @@
                         <label class="accessibility" for="fieldEmail">Email </label>
                         <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-yddyhrj-yddyhrj" required="" type="email">
                         <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true">
-                        <button type="submit">Subscribe To Our Newsletter</button>
+                        <button id="newsletter_submit" class="js-cm-submit-button" type="submit">Subscribe To Our Newsletter</button>
                     </form>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
