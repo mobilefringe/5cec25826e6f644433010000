@@ -9,7 +9,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4 footer_newsletter">
                     <p class="footer_heading">NEWSLETTER SUBSCRIPTION</p>
                     <p>Stay up to date on the latest news from {{ property.name }}!</p>
-                    
+
                     <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1AA0DD7DB141E3D88EFBCC66B0A005FAE472CB246984226443F57628F6D12F6E9372778D540690651D1BBF3E28293C4F5B">
                         <label class="accessibility" for="fieldEmail">Email </label>
                         <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-ydiutyj-ydiutyj" required="" type="email">
